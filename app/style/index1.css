@@ -1,0 +1,16 @@
+@import "./reset.css";
+div{
+    font:26px/1.5em 'Helvetica',' Frutiger';
+    border:2px dotted red;
+    background: #999;
+    margin:0 auto;
+
+}
+div:hover{
+    padding-left:16px;
+    color:#C2CF8A;
+    transition: all 1s linear;
+    -moz-transition: all 1s linear; /* Firefox 4 */
+    -webkit-transition: all 1s  linear; /* Safari 和 Chrome */
+    -o-transition: all 1s linear;
+}

@@ -1,0 +1,15 @@
+在package.json中配置的script里面的方法名这里定义的方法可以在npm里通过 npm run 方法名  来做到简化操作
+方法：
+在npm里添加所以来的模块加载
+npm init 创建package.json文件
+	npm install <module-name> -g/--save-dev/--save  安装模块
+	npm update <module-name >  更新模块
+	npm uninstall <module-name > 卸载模块
+	然后针对不同的简化npm操作和不同的模块以来的加载器和处理器建立
+	config.js文件（里面包含了npm处理的方法和打包路径问题还有需要的插件等等信息）
+
+
+	React :
+	   class  要写成className
+	   for 写成  htmlFor
+	   input等标签  要闭合  < />
